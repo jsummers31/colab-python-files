@@ -1,3 +1,4 @@
+import random as r
 def spawnEnemy(difficulty):
     opponents = []
     if difficulty == "easy":
