@@ -19,7 +19,7 @@ class Enemy:
 class Slime(Enemy):
     def __init__(self):
         self.name = "Slime"
-        self.health = random.randint(2,4)
+        self.health = r.randint(2,4)
 
     def damage(self):
         attack = r.randint(1,3)
